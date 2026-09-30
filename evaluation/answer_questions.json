@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What are the symptoms of rice blast disease?",
+        "type": "answerable"
+    },
+    {
+        "question": "What causes rice blast disease?",
+        "type": "answerable"
+    },
+    {
+        "question": "How can rice blast disease be managed?",
+        "type": "answerable"
+    },
+    {
+        "question": "What environmental conditions favor rice blast?",
+        "type": "answerable"
+    },
+    {
+        "question": "What role does nitrogen fertilizer play in rice blast?",
+        "type": "answerable"
+    },
+    {
+        "question": "How can farmers prevent rice blast?",
+        "type": "answerable"
+    },
+    {
+        "question": "What parts of the rice plant can be affected by blast?",
+        "type": "answerable"
+    },
+    {
+        "question": "How does rice blast spread?",
+        "type": "answerable"
+    },
+    {
+        "question": "What is the life cycle of the rice blast pathogen?",
+        "type": "answerable"
+    },
+    {
+        "question": "What factors increase the severity of rice blast?",
+        "type": "answerable"
+    },
+    {
+        "question": "What is the recommended pesticide dosage for wheat?",
+        "type": "unanswerable"
+    },
+    {
+        "question": "What is the market price of rice today?",
+        "type": "unanswerable"
+    },
+    {
+        "question": "What fertilizer should I use for cotton?",
+        "type": "unanswerable"
+    },
+    {
+        "question": "How much water does wheat require per hectare?",
+        "type": "unanswerable"
+    },
+    {
+        "question": "What is the best variety of wheat for Haryana?",
+        "type": "unanswerable"
+    }
+]

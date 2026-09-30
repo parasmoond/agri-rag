@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What are the symptoms of rice blast disease?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "How can rice blast be managed?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What causes rice blast?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "How does rice blast affect rice plants?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What environmental conditions favor rice blast disease?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What are the characteristic lesions caused by rice blast?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "How can farmers prevent rice blast disease?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What cultural practices can help manage rice blast?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What role does nitrogen fertilizer play in rice blast development?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "When is rice particularly vulnerable to blast disease?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What parts of the rice plant can be infected by blast disease?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "How does rice blast spread?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What is the causal organism of rice blast disease?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What factors increase the severity of rice blast?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What are the recommended management approaches for rice blast?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "Can rice blast disease be controlled through field management practices?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What are the main disease management principles discussed for rice blast?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What is the life cycle of the rice blast pathogen?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "How can excessive nitrogen application affect rice blast?",
+        "expected_source": "rice_disease_management.pdf"
+    },
+    {
+        "question": "What conditions should farmers avoid to reduce rice blast risk?",
+        "expected_source": "rice_disease_management.pdf"
+    }
+]
