@@ -1,4 +1,5 @@
 import os
+import time
 from google import genai
 
 
@@ -26,9 +27,22 @@ class GeminiLLM:
         prompt: str
     ) -> str:
 
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=prompt
-        )
+        max_retries = 4
 
-        return response.text
+        for attempt in range(max_retries):
+
+            try:
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=prompt
+                )
+
+                return response.text
+
+            except Exception as e:
+
+                if attempt == max_retries - 1:
+                    raise e
+
+                wait_time = 2 ** attempt
+                time.sleep(wait_time)
