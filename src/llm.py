@@ -1,34 +1,34 @@
-import requests
+import os
+from google import genai
 
 
-class OllamaLLM:
+class GeminiLLM:
 
     def __init__(
         self,
-        model="qwen3:1.7b",
-        base_url="http://localhost:11434"
+        model="gemini-3.8-flash"
     ):
-        self.model = model
-        self.base_url = base_url
+        api_key = os.getenv("GEMINI_API_KEY")
 
-    def generate(self, prompt: str) -> str:
+        if not api_key:
+            raise ValueError(
+                "GEMINI_API_KEY is not set."
+            )
 
-        url = f"{self.base_url}/api/generate"
-
-        payload = {
-            "model": self.model,
-            "prompt": prompt,
-            "stream": False
-        }
-
-        response = requests.post(
-            url,
-            json=payload,
-            timeout=120
+        self.client = genai.Client(
+            api_key=api_key
         )
 
-        response.raise_for_status()
+        self.model = model
 
-        result = response.json()
+    def generate(
+        self,
+        prompt: str
+    ) -> str:
 
-        return result["response"]
+        response = self.client.models.generate_content(
+            model=self.model,
+            contents=prompt
+        )
+
+        return response.text

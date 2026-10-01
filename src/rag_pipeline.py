@@ -4,7 +4,7 @@ from pathlib import Path
 import faiss
 
 from src.embeddings import EmbeddingModel
-from src.llm import OllamaLLM
+from src.llm import GeminiLLM
 from src.prompt import build_rag_prompt
 from src.reranker import Reranker
 
@@ -56,9 +56,7 @@ class RAGPipeline:
         # Load LLM
         # --------------------------------
 
-        self.llm = OllamaLLM(
-            model=model_name
-        )
+        self.llm = GeminiLLM()
 
         # --------------------------------
         # Load reranker
